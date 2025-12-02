@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Club des Loulou - Canyoning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .cta {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid #000;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Le Club des Loulou</h1>
+    <p>Association de canyoning – sorties, formation et missions solidaires.</p>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">Sorties</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Bienvenue !</h2>
+    <p>
+      Le Club des Loulou organise des sorties canyoning, finance le matériel
+      et les déplacements, et prépare des missions à l’étranger pour former
+      des pompiers aux techniques de secours en canyon.
+    </p>
+
+    <a class="cta" href="mailto:contact@clubdesloulou.fr">Nous contacter</a>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Le Club des Loulou - Association loi 1901
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
