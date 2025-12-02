@@ -1,24 +1,61 @@
+/* RESET SIMPLE */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: 0 auto;
+  color: white;
+}
+
+/* SECTION HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #00a3ff, #005a9c);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 20px;
 }
-
-header {
-  text-align: center;
-  margin-bottom: 30px;
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
 }
-
 .cta {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 1px solid #000;
+  background: white;
+  color: #005a9c;
+  padding: 12px 24px;
+  border-radius: 8px;
   text-decoration: none;
-  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-1 {
+  background: linear-gradient(135deg, #ff8c00, #ff6200);
+}
+.section-2 {
+  background: linear-gradient(135deg, #008f4c, #00b86e);
+}
+.section-3 {
+  background: linear-gradient(135deg, #9c00ff, #5a009c);
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #111;
+  font-size: 0.9rem;
 }
