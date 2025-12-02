@@ -1,39 +1,32 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Club des Loulou - Canyoning</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
-  <header>
-    <h1>Club des Loulou</h1>
-    <p>Association de canyoning – sorties, formation et missions solidaires.</p>
-    <nav>
-      <a href="#">Accueil</a>
-      <a href="#">Sorties</a>
-      <a href="#">Contact</a>
-    </nav>
+
+  <header class="hero">
+    <h1>Le Club des Loulou</h1>
+    <p>Canyoning – Aventure – Formation – Solidarité</p>
+    <a class="cta" href="#">Découvrir nos sorties</a>
+	<link rel="stylesheet" href="style.css">
   </header>
 
-  <main>
-    <h2>Bienvenue !</h2>
-    <p>
-      Le Club des Loulou organise des sorties canyoning, finance le matériel
-      et les déplacements, et prépare des missions à l’étranger pour former
-      des pompiers aux techniques de secours en canyon.
-    </p>
+  <section class="section section-1">
+    <h2>Nos sorties canyoning</h2>
+    <p>Des sorties ouvertes à tous niveaux, encadrées par des passionnés.</p>
+  </section>
 
-    <a class="cta" href="mailto:contact@clubdesloulou.fr">Nous contacter</a>
-  </main>
+  <section class="section section-2">
+    <h2>L'association</h2>
+    <p>
+      Le Club des Loulou finance le matériel, les trajets,
+      et organise des missions solidaires à l’étranger.
+    </p>
+  </section>
+
+  <section class="section section-3">
+    <h2>Nous rejoindre</h2>
+    <p>Inscription simple : 10 € de participation par sortie.</p>
+  </section>
 
   <footer>
-    &copy; <span id="year"></span> Club des Loulou - Association loi 1901
+    © 2025 Le Club des Loulou – Association loi 1901
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
-</html>
